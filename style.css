@@ -1,0 +1,129 @@
+/* * chọn tất cả phần tử trong trang */
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6; /*Đặt khoảng cách các dòng*/
+    background-color: #f4f4f4;
+}
+
+/*Container*/
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*Header*/
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+/*Navigation*/
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a.nav-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a.nav-button:hover {
+    background-color: #0056b3;
+}
+
+/*Section Styling*/
+section {
+    padding:60px 0;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+section#services ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+section#services ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li{
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    section p {
+        font-size: 1rem;
+    }
+}

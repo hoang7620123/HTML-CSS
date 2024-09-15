@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Tiêu đề và điều hướng-->
+    <header>
+        <div class="container">
+            <h1>Giới Thiệu Công Ty</h1>
+                <nav>
+                    <ul>
+                        <li><a class="nav-button" href="#home">Trang Chủ</a></li>
+                        <li><a class="nav-button" href="#about">Giới Thiệu</a></li>
+                        <li><a class="nav-button" href="#services">Dịch Vụ</a></li>
+                        <li><a class="nav-button" href="#contact">Liên Hệ</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <!--Chia trang thành phần lớn-->
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Chào mừng đến với công ty chúng tôi!</h2>
+                <p>Công ty chúng tôi chuyên cung cấp các dịch vụ hàng đầu trong lĩnh vực công nghệ và phát triền phần mềm.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>Về chúng tôi</h2>
+                <p>Chúng tôi là một đội ngũ các chuyên gia với nhiều năm kinh ngiệm trong ngành, luôn nỗ lực mang lại giá trị tối đa cho khách hàng.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Dịch vụ</h2>
+                <ul>
+                    <li>Phát triển phần mềm</li>
+                    <li>Tư vấn công nghệ</li>
+                    <li>Thiết kế web</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Liên hệ</h2>
+                <p>Email: 2331540147@vaa.edu.vn</p>
+                <p>Điện thoại: 0937744254</p>
+            </div>
+        </section>
+    </main>
+    <!--Phần chân trang-->
+    <footer>
+        <div class="container">
+            <p>Bản quyền 2024 Công Ty Cổ Phần Công Nghệ</p>
+        </div>
+    </footer>
+
+    <!-- Adding smooth scroll functionality -->
+    <!--<script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>-->
+</body>
+</html>
