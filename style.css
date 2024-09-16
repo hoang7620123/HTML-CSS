@@ -1,3 +1,5 @@
+
+
 /* * chọn tất cả phần tử trong trang */
 *{
     margin: 0; 
@@ -8,7 +10,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     line-height: 1.6; /*Đặt khoảng cách các dòng*/
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
 }
 
 /*Container*/
@@ -127,3 +129,14 @@ footer p{
         font-size: 1rem;
     }
 }
+
+main {
+    background-image: url(./chuyendong.png);
+    background-repeat: no-repeat;/* Đảm bảo ảnh không lặp lại */
+    background-position: center;
+    background-size: cover;/* Ảnh bao phủ toàn bộ phần tử */
+    min-height: 100vh;/* Chiều cao tối thiểu là 100% chiều cao màn hình */
+    color: #fff;
+
+}
+
